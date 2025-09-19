@@ -11,7 +11,7 @@ body{
   left: 0;
   width: 100vw;
   height: 200px; 
-  background: #000;
+  background: #fff;
   z-index: 1000;
 }
 .logo-cover img {
