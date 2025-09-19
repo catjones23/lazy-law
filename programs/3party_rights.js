@@ -30,7 +30,7 @@ function main() {
         // First: Identify type of estate or interest
         question1 = String(
             prompt(`Identify the type of estate or interest \n`
-                + `(easement/mortgage/restrictive covenant/freehold/leasehold/lease/contract/implied trust/express trust)`)
+                + `(easement/mortgage/covenant/freehold/leasehold/lease/contract/implied trust/express trust)`)
         ).trim().toLowerCase();
 
         // Express or implied trusts
@@ -272,7 +272,7 @@ function main() {
             } else {
                 alert('Interest not recognised in equity.');
             }
-        } else if (question1 === 'restrictive covenant') {
+        } else if (question1 === 'covenant') {
             question11 = String(prompt(
                 'Has this interest been created in signed writing as per s 53(1) LPA 1925? (yes/no)'
             )).trim().toLowerCase();
@@ -280,7 +280,7 @@ function main() {
             if (question11 === 'yes') {
                 question18 = String(
                     prompt(
-                        `The restrictive covenant is an equitable interest which affects a registered estate.\n` +
+                        `The covenant is an equitable interest which affects a registered estate.\n` +
                         `Has the interest been registered at the Land Registry by date of registration of buyer? (yes/no)`
                     )
                 ).trim().toLowerCase();
