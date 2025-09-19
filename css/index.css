@@ -1,0 +1,101 @@
+
+body{
+  font-family: ccbiffbamboom, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.logo-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 200px; /* or whatever height you want */
+  background: #fff;
+  z-index: 1000;
+}
+.logo-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.main-content {
+  margin-top: 200px; /* match the .logo-cover height */
+}
+
+
+.subhead{
+  margin-top: 5%;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 300%;
+}
+
+.icons img {
+  opacity: 100%;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+.icons img:hover {
+  opacity: 60%;
+  transition-duration: 1s;
+}
+
+.title .col-lg-5{
+  font-size: 100%;
+  margin-top: 10%;
+}
+
+.title img {
+  height: 500px;
+  width: auto;
+}
+
+.icons #playlist{
+  color: #000000;
+  transition-duration: 0.5s;
+}
+
+.icons #playlist :hover {
+  opacity: 90%;
+  color: #FFFFFF;
+  transition-duration: 0.5s;
+
+}
+
+.posters img {
+  position: relative;
+  width: 780px;
+  justify-content: flex-start;
+  padding-bottom: 10%;
+  opacity: 90%;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+.posters img:hover {
+  width: 700px;
+  opacity: 100%;
+  transition-duration: 0.5s;
+}
+
+
+
+.patterns img {
+  position: relative;
+  width: 780px;
+  justify-content: flex-start;
+  padding-bottom: 10%;
+  opacity: 90%;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+.patterns img:hover {
+  width: 800px;
+  opacity: 100%;
+  transition-duration: 0.5s;
+}
